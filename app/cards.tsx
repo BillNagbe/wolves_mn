@@ -6,10 +6,10 @@ export default function Cards({props}: any) {
         return (
             <figure className="w-[250px] h-[500px] border rounded-xl shadow-md shadow-black grid grid-cols-4 grid-rows-4">
                 <Image
-                src={props.src}
-                alt={props.alt}
-                height={props.height}
-                width={props.width}
+                src=""
+                alt=""
+                height="200"
+                width="200"
                 className="row-start-1 row-end-4 col-start-1 col-end-4"
                 />
                 <div className="col-start-3 col-end-5">
