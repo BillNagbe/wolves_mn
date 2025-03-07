@@ -14,7 +14,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        {children}
+        <main className="max-w-screen p-6">
+          <section className="book border-4 border-black rounded-lg inset-shadow-sm h-screen flex flex-col gap-4 md:grid md:grid-cols-3 md:grid-rows-5 md:gap-4 lg:">
+              {children}
+          </section>
+        </main>
       </body>
     </html>
   );
